@@ -1,6 +1,6 @@
 ﻿<!--PROJECT : Monies
 PROJECT DESCRIPTION : A metro style, smart client expense tracking software.
-AUTHOR : Siddhartha S
+AUTHOR : Vivian Lobo
 DISCLAIMER : This code is licensed under CPOL. You are free to use this in your project.
 The author takes no liabilities for any damage caused because of this code. Use at your own risk.-->
 <UserControl x:Class="Monies.Views.HelpView"
@@ -12,36 +12,83 @@ The author takes no liabilities for any damage caused because of this code. Use 
                TargetType="{x:Type ControlsLib:NavigationButtonControl}"/>
     </UserControl.Resources>
     <Grid Height="320" Width="500">
-        <FlowDocumentScrollViewer Background="Transparent" HorizontalScrollBarVisibility="Auto" 
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="40" />
+        </Grid.RowDefinitions>
+        <FlowDocumentScrollViewer Grid.Row="0" Background="Transparent" HorizontalScrollBarVisibility="Auto" 
                                   VerticalScrollBarVisibility="Auto">
             <FlowDocument FontFamily="{DynamicResource DefaultFont}" FontSize="{DynamicResource NormalFontSize}">
                 <Paragraph>
                     <Figure Width="200">
-                        <BlockUIContainer Padding="0">
+                        <!--<BlockUIContainer Padding="0">
                             <Image Source="../Resources/Sid.png" Height="150" Width="172"/>
                         </BlockUIContainer>
                         <Paragraph>
                             <StackPanel Orientation="Horizontal">
                                 <ControlsLib:NavigationButtonControl Content="{StaticResource LinkedInFigure}" 
                                                                      Command="{Binding LaunchWebpageCommand}"
-                                                                     CommandParameter="http://in.linkedin.com/in/siddharthasarkar/"
+                                                                     CommandParameter="https://uk.linkedin.com/in/lobovivian"
                                                                      Height="20" Width="20"/>
                                 <ControlsLib:NavigationButtonControl Content="{StaticResource GooglePlusFigure}" 
                                                                      Command="{Binding LaunchWebpageCommand}"
-                                                                     CommandParameter="https://plus.google.com/110191511442548920098/posts"
+                                                                     CommandParameter="https://plus.google.com/+VivianLobo7"
+                                                                     Height="20" Width="20"/>
+                                <ControlsLib:NavigationButtonControl Content="{StaticResource GitHubFigure}" 
+                                                                     Command="{Binding LaunchWebpageCommand}"
+                                                                     CommandParameter="https://github.com/vnl"
+                                                                     Height="20" Width="20"/>
+                                <ControlsLib:NavigationButtonControl Content="{StaticResource FacebookFigure}" 
+                                                                     Command="{Binding LaunchWebpageCommand}"
+                                                                     CommandParameter="https://www.facebook.com/vivian.lobo"
+                                                                     Height="20" Width="20"/>
+                                <ControlsLib:NavigationButtonControl Content="{StaticResource TwitterFigure}" 
+                                                                     Command="{Binding LaunchWebpageCommand}"
+                                                                     CommandParameter="https://twitter.com/VivianLobo7"
                                                                      Height="20" Width="20"/>
                             </StackPanel>
-                        </Paragraph>
+                        </Paragraph>-->
                     </Figure>
-                    Monies is an expense tracker application with bare minimum functionality that sports the metro UI look of Windows 8. It is developed using C# and WPF by Siddhartha S.
+                    Monies is an expense tracker application.
                     <LineBreak />
-                    Sid works with a leading Investment Bank in Mumbai (India). With applications like Monies, Sid wants to revisit the challenges he came across as a WPF-MVVM developer and believes many newbie developers too, come across everyday. He attempts to bring most, if not all, of the problems and their solutions under the same roof.
+                    Need to write something here.
                     <LineBreak />
-                    Source code of XPense is available for download at
-                    <Hyperlink NavigateUri="http://www.codeproject.com/">
-                        code project</Hyperlink> .
+                    My website:
+                    <Hyperlink NavigateUri="http://vivianlobo.com/">
+                        Vivian Lobo</Hyperlink> .
                 </Paragraph>
             </FlowDocument>
         </FlowDocumentScrollViewer>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <ControlsLib:NavigationButtonControl Content="{StaticResource LinkedInFigure}"
+                                                 Command="{Binding LaunchWebpageCommand}"
+                                                 CommandParameter="https://uk.linkedin.com/in/lobovivian"
+                                                 Height="20" Width="20"
+                                                 ToolTip="LinkedIn"/>
+            <ControlsLib:NavigationButtonControl Content="{StaticResource GooglePlusFigure}"
+                                                 ToolTip="Google +"
+                                                 Command="{Binding LaunchWebpageCommand}"
+                                                 CommandParameter="https://plus.google.com/+VivianLobo7"
+                                                 Height="20" Width="20"/>
+            <ControlsLib:NavigationButtonControl Content="{StaticResource GitHubFigure}"
+                                                 Command="{Binding LaunchWebpageCommand}"
+                                                 CommandParameter="https://github.com/vnl"
+                                                 Height="20" Width="20"
+                                                 ToolTip="GitHub"/>
+            <ControlsLib:NavigationButtonControl Content="{StaticResource FacebookFigure}"
+                                                 ToolTip="Facebook"
+                                                 Command="{Binding LaunchWebpageCommand}"
+                                                 CommandParameter="https://www.facebook.com/vivian.lobo"
+                                                 Height="20" Width="20"/>
+            <ControlsLib:NavigationButtonControl Content="{StaticResource TwitterFigure}"
+                                                 ToolTip="Twitter"
+                                                 Command="{Binding LaunchWebpageCommand}"
+                                                 CommandParameter="https://twitter.com/VivianLobo7"
+                                                 Height="20" Width="20"/>
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center"
+                       FontSize="14">
+                <Hyperlink NavigateUri="http://vivianlobo.com/">Vivian Lobo</Hyperlink>
+            </TextBlock>
+        </StackPanel>
     </Grid>
 </UserControl>
