@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{382A8C83-D370-4365-9DE1-6C4AA880EF32}"
 	ProjectSection(SolutionItems) = preProject
 		..\Output\ThirdParty\Apex.dll = ..\Output\ThirdParty\Apex.dll
@@ -14,17 +16,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{382A8C83-D37
 		..\Output\ThirdParty\System.Windows.Interactivity.dll = ..\Output\ThirdParty\System.Windows.Interactivity.dll
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPence.Infrastructure", "XPence.Infrastructure\XPence.Infrastructure.csproj", "{B5506544-BBD8-4D5C-8C50-71A37454ED62}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monies.Infrastructure", "Monies.Infrastructure\Monies.Infrastructure.csproj", "{B5506544-BBD8-4D5C-8C50-71A37454ED62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPence.Models", "XPence.Models\XPence.Models.csproj", "{9EE81062-70E9-4539-9568-1D6F90C0921D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monies.Models", "Monies.Models\Monies.Models.csproj", "{9EE81062-70E9-4539-9568-1D6F90C0921D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPence.Shared", "XPence.Shared\XPence.Shared.csproj", "{35BC1AF0-EE5F-4726-9016-57FA35FE5F05}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monies.Shared", "Monies.Shared\Monies.Shared.csproj", "{35BC1AF0-EE5F-4726-9016-57FA35FE5F05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPence.ViewModels", "XPence.ViewModels\XPence.ViewModels.csproj", "{D45E0826-D44E-4CF1-BDCD-AEBA0CDE7A94}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monies.ViewModels", "Monies.ViewModels\Monies.ViewModels.csproj", "{D45E0826-D44E-4CF1-BDCD-AEBA0CDE7A94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPence", "XPence\XPence.csproj", "{F06F8A6C-3CA2-4F6A-B2AD-E49D5BEDDE5B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monies", "Monies\Monies.csproj", "{F06F8A6C-3CA2-4F6A-B2AD-E49D5BEDDE5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPence.ControlsLib", "XPence.ControlsLib\XPence.ControlsLib.csproj", "{000EEC0B-F056-41FA-B10B-FCF11D2D7075}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monies.ControlsLib", "Monies.ControlsLib\Monies.ControlsLib.csproj", "{000EEC0B-F056-41FA-B10B-FCF11D2D7075}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

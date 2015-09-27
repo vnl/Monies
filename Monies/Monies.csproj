@@ -231,21 +231,21 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\XPence.ControlsLib\XPence.ControlsLib.csproj">
+    <ProjectReference Include="..\Monies.ControlsLib\Monies.ControlsLib.csproj">
       <Project>{000eec0b-f056-41fa-b10b-fcf11d2d7075}</Project>
-      <Name>XPence.ControlsLib</Name>
+      <Name>Monies.ControlsLib</Name>
     </ProjectReference>
-    <ProjectReference Include="..\XPence.Infrastructure\XPence.Infrastructure.csproj">
+    <ProjectReference Include="..\Monies.Infrastructure\Monies.Infrastructure.csproj">
       <Project>{b5506544-bbd8-4d5c-8c50-71a37454ed62}</Project>
-      <Name>XPence.Infrastructure</Name>
+      <Name>Monies.Infrastructure</Name>
     </ProjectReference>
-    <ProjectReference Include="..\XPence.Shared\XPence.Shared.csproj">
+    <ProjectReference Include="..\Monies.Shared\Monies.Shared.csproj">
       <Project>{35bc1af0-ee5f-4726-9016-57fa35fe5f05}</Project>
-      <Name>XPence.Shared</Name>
+      <Name>Monies.Shared</Name>
     </ProjectReference>
-    <ProjectReference Include="..\XPence.ViewModels\XPence.ViewModels.csproj">
+    <ProjectReference Include="..\Monies.ViewModels\Monies.ViewModels.csproj">
       <Project>{d45e0826-d44e-4cf1-bdcd-aeba0cde7a94}</Project>
-      <Name>XPence.ViewModels</Name>
+      <Name>Monies.ViewModels</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

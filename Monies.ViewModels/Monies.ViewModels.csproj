@@ -57,17 +57,17 @@
     <Compile Include="UserViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\XPence.Infrastructure\XPence.Infrastructure.csproj">
+    <ProjectReference Include="..\Monies.Infrastructure\Monies.Infrastructure.csproj">
       <Project>{b5506544-bbd8-4d5c-8c50-71a37454ed62}</Project>
-      <Name>XPence.Infrastructure</Name>
+      <Name>Monies.Infrastructure</Name>
     </ProjectReference>
-    <ProjectReference Include="..\XPence.Models\XPence.Models.csproj">
+    <ProjectReference Include="..\Monies.Models\Monies.Models.csproj">
       <Project>{9ee81062-70e9-4539-9568-1d6f90c0921d}</Project>
-      <Name>XPence.Models</Name>
+      <Name>Monies.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\XPence.Shared\XPence.Shared.csproj">
+    <ProjectReference Include="..\Monies.Shared\Monies.Shared.csproj">
       <Project>{35bc1af0-ee5f-4726-9016-57fa35fe5f05}</Project>
-      <Name>XPence.Shared</Name>
+      <Name>Monies.Shared</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
