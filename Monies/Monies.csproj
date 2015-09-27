@@ -7,8 +7,8 @@
     <ProjectGuid>{F06F8A6C-3CA2-4F6A-B2AD-E49D5BEDDE5B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>XPence</RootNamespace>
-    <AssemblyName>XPence</AssemblyName>
+    <RootNamespace>Monies</RootNamespace>
+    <AssemblyName>Monies</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseIntermediateOutputPath>..\..\ObjMatter\</BaseIntermediateOutputPath>

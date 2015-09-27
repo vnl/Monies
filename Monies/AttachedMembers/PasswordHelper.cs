@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 
-namespace XPence.AttachedMembers
+namespace Monies.AttachedMembers
 {
     /**********************************************************
      * Taken as it is from:

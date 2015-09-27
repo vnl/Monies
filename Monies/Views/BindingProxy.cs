@@ -4,7 +4,7 @@
  * ***************************************************************************************************************/
 using System.Windows;
 
-namespace XPence.Views
+namespace Monies.Views
 {
     /// <summary>
     /// 

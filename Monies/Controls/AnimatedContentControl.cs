@@ -11,7 +11,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
 
-namespace XPence.Controls
+namespace Monies.Controls
 {
     /// <summary>
     /// A ContentControl that animates the transition between content

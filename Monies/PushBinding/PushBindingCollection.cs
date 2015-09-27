@@ -4,7 +4,7 @@
 using System.Windows;
 using System.Collections.Specialized;
 
-namespace XPence.PushBinding
+namespace Monies.PushBinding
 {
     public class PushBindingCollection : FreezableCollection<PushBinding>
     {

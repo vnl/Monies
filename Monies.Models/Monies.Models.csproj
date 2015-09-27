@@ -7,8 +7,8 @@
     <ProjectGuid>{9EE81062-70E9-4539-9568-1D6F90C0921D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>XPence.Models</RootNamespace>
-    <AssemblyName>XPence.Models</AssemblyName>
+    <RootNamespace>Monies.Models</RootNamespace>
+    <AssemblyName>Monies.Models</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>

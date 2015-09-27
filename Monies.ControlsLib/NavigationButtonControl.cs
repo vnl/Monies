@@ -1,5 +1,5 @@
 ﻿/***************************************************************************************************
- * PROJECT : XPence
+ * PROJECT : Monies
  * PROJECT DESCRIPTION : A metro style, smart client expense tracking software.
  * AUTHOR : Siddhartha S
  * DISCLAIMER : This code is licensed under CPOL. You are free to use this in your project.
@@ -12,7 +12,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 
-namespace XPence.ControlsLib
+namespace Monies.ControlsLib
 {
     /// <summary>
     /// A replacement for <see cref="System.Windows.Controls.Primitives.ButtonBase"/> class that lets the consumer have a content and overridable style.

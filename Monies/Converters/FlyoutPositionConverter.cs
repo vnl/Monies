@@ -1,5 +1,5 @@
 ﻿/***************************************************************************************************
- * PROJECT : XPence
+ * PROJECT : Monies
  * PROJECT DESCRIPTION : A metro style, smart client expense tracking software.
  * AUTHOR : Siddhartha S
  * DISCLAIMER : This code is licensed under CPOL. You are free to use this in your project.
@@ -9,10 +9,10 @@
 using System;
 using System.Globalization;
 using System.Windows.Data;
-using XPence.Infrastructure.BaseClasses;
+using Monies.Infrastructure.BaseClasses;
 using MahApps.Metro.Controls;
 
-namespace XPence.Converters
+namespace Monies.Converters
 {
     /// <summary>
     /// A converter to convert a <see cref="VisibilityPosition"/> enum to <see cref="Position"/> enum.

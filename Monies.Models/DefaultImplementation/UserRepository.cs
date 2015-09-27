@@ -4,13 +4,13 @@ using System.Linq;
 using System.Threading;
 using NHibernate;
 using NHibernate.Criterion;
-using XPence.Infrastructure.Utility;
-using XPence.Models.DataModels;
-using XPence.Models.EventArgsAndException;
-using XPence.Models.Interfaces;
-using XPence.Shared;
+using Monies.Infrastructure.Utility;
+using Monies.Models.DataModels;
+using Monies.Models.EventArgsAndException;
+using Monies.Models.Interfaces;
+using Monies.Shared;
 
-namespace XPence.Models.DefaultImplementation
+namespace Monies.Models.DefaultImplementation
 {
     /// <summary>
     /// An internal default implementation of <see cref="IUserRepository"/>.

@@ -1,5 +1,5 @@
 ﻿/***************************************************************************************************
- * PROJECT : XPence
+ * PROJECT : Monies
  * PROJECT DESCRIPTION : A metro style, smart client expense tracking software.
  * AUTHOR : Siddhartha S
  * DISCLAIMER : This code is licensed under CPOL. You are free to use this in your project.
@@ -11,10 +11,10 @@ using System.Threading.Tasks;
 using System.Windows;
 using MahApps.Metro.Controls;
 using MahApps.Metro.Controls.Dialogs;
-using XPence.Infrastructure.BaseClasses;
-using XPence.Infrastructure.Utility;
+using Monies.Infrastructure.BaseClasses;
+using Monies.Infrastructure.Utility;
 
-namespace XPence.Infrastructure.MessagingService
+namespace Monies.Infrastructure.MessagingService
 {
     /// <summary>
     /// Default implementation of the IMessagingService interface.

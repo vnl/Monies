@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ABOUT_WINDOW_HEADER" xml:space="preserve">
-    <value>About XPense</value>
+    <value>About Monies</value>
   </data>
   <data name="ACCENT_SELECT_LABEL_TEXT" xml:space="preserve">
     <value>My Accent</value>
@@ -214,10 +214,10 @@
     <value>Purpose</value>
   </data>
   <data name="HELP_WINDOW_HEADER" xml:space="preserve">
-    <value>About XPense</value>
+    <value>About Monies</value>
   </data>
   <data name="HOME_VIEW_HEADER" xml:space="preserve">
-    <value>XPence Home</value>
+    <value>Monies Home</value>
   </data>
   <data name="IMAGE_PICKER_WINDOW_TITLE" xml:space="preserve">
     <value>Pick an image.</value>
@@ -226,7 +226,7 @@
     <value>Login</value>
   </data>
   <data name="LOGIN_SCREEN_HEADER" xml:space="preserve">
-    <value>Login to XPence</value>
+    <value>Login to Monies</value>
   </data>
   <data name="MANAGE_VIEW_HEADER" xml:space="preserve">
     <value>Manage</value>
@@ -295,7 +295,7 @@
     <value>Go to home.</value>
   </data>
   <data name="TP_INFO" xml:space="preserve">
-    <value>About XPence.</value>
+    <value>About Monies.</value>
   </data>
   <data name="TP_LOGIN_BUTTON" xml:space="preserve">
     <value>Login.</value>

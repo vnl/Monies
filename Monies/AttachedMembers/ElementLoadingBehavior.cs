@@ -1,5 +1,5 @@
 ﻿/***************************************************************************************************
- * PROJECT : XPence
+ * PROJECT : Monies
  * PROJECT DESCRIPTION : A metro style, smart client expense tracking software.
  * AUTHOR : Siddhartha S
  * DISCLAIMER : This code is licensed under CPOL. You are free to use this in your project.
@@ -7,9 +7,9 @@
 ****************************************************************************************************/
 
 using System.Windows;
-using XPence.Infrastructure.BaseClasses;
+using Monies.Infrastructure.BaseClasses;
 
-namespace XPence.AttachedMembers
+namespace Monies.AttachedMembers
 {
     /// <summary>
     /// Provides attachted properties for loading of an element.

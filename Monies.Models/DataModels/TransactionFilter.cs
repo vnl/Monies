@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace XPence.Models.DataModels
+namespace Monies.Models.DataModels
 {
     /// <summary>
     /// A wrapper class to carry all the filter criteria fields.

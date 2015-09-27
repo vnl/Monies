@@ -1,5 +1,5 @@
 ﻿/***************************************************************************************************
- * PROJECT : XPence
+ * PROJECT : Monies
  * PROJECT DESCRIPTION : A metro style, smart client expense tracking software.
  * AUTHOR : Siddhartha S
  * DISCLAIMER : This code is licensed under CPOL. You are free to use this in your project.
@@ -13,16 +13,16 @@ using System.Windows;
 using System.Windows.Data;
 using MahApps.Metro;
 
-namespace XPence.Infrastructure.Utility
+namespace Monies.Infrastructure.Utility
 {
     /// <summary>
     /// A static class that manages the appearance of the application.
     /// </summary>
     public class AppearanceManager
     {
-        internal static readonly ResourceDictionary LightChartResource = new ResourceDictionary { Source = new Uri("pack://application:,,,/XPence.Infrastructure;component/Resources/ChartLight.xaml") };
-        internal static readonly ResourceDictionary DarkChartResource = new ResourceDictionary { Source = new Uri("pack://application:,,,/XPence.Infrastructure;component/Resources/ChartDark.xaml") };
-        internal static readonly ResourceDictionary ChartAccentResources = new ResourceDictionary { Source = new Uri("pack://application:,,,/XPence.Infrastructure;component/Resources/ChartPaletteResources.xaml") };
+        internal static readonly ResourceDictionary LightChartResource = new ResourceDictionary { Source = new Uri("pack://application:,,,/Monies.Infrastructure;component/Resources/ChartLight.xaml") };
+        internal static readonly ResourceDictionary DarkChartResource = new ResourceDictionary { Source = new Uri("pack://application:,,,/Monies.Infrastructure;component/Resources/ChartDark.xaml") };
+        internal static readonly ResourceDictionary ChartAccentResources = new ResourceDictionary { Source = new Uri("pack://application:,,,/Monies.Infrastructure;component/Resources/ChartPaletteResources.xaml") };
 
         private static readonly string LightThemeText;
         private static readonly string DarkThemeText;

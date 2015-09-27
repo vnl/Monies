@@ -1,5 +1,5 @@
 ﻿
-namespace XPence
+namespace Monies
 {
     /// <summary>
     /// Interaction logic for Shell.xaml

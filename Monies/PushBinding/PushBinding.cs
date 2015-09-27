@@ -5,7 +5,7 @@ using System.Windows;
 using System.ComponentModel;
 using System.Windows.Data;
 
-namespace XPence.PushBinding
+namespace Monies.PushBinding
 {
     public class PushBinding : FreezableBinding
     {

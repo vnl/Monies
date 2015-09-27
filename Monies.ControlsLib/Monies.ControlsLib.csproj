@@ -7,8 +7,8 @@
     <ProjectGuid>{000EEC0B-F056-41FA-B10B-FCF11D2D7075}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>XPence.ControlsLib</RootNamespace>
-    <AssemblyName>XPence.ControlsLib</AssemblyName>
+    <RootNamespace>Monies.ControlsLib</RootNamespace>
+    <AssemblyName>Monies.ControlsLib</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

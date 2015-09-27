@@ -1,5 +1,5 @@
 ﻿/***************************************************************************************************
- * PROJECT : XPence
+ * PROJECT : Monies
  * PROJECT DESCRIPTION : A metro style, smart client expense tracking software.
  * AUTHOR : Siddhartha S
  * DISCLAIMER : This code is licensed under CPOL. You are free to use this in your project.
@@ -9,15 +9,15 @@
 using System;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
-using XPence.Shared;
-using XPence.Models;
-using XPence.Models.EventArgsAndException;
-using XPence.Infrastructure.BaseClasses;
-using XPence.Infrastructure.CoreClasses;
-using XPence.Infrastructure.MessagingService;
-using XPence.Infrastructure.Utility;
+using Monies.Shared;
+using Monies.Models;
+using Monies.Models.EventArgsAndException;
+using Monies.Infrastructure.BaseClasses;
+using Monies.Infrastructure.CoreClasses;
+using Monies.Infrastructure.MessagingService;
+using Monies.Infrastructure.Utility;
 
-namespace XPence.ViewModels
+namespace Monies.ViewModels
 {
     /// <summary>
     /// The ViewModel class that caters to the main window of the application.

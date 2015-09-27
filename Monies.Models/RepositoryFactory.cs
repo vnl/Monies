@@ -1,7 +1,7 @@
-﻿using XPence.Models.DefaultImplementation;
-using XPence.Models.Interfaces;
+﻿using Monies.Models.DefaultImplementation;
+using Monies.Models.Interfaces;
 
-namespace XPence.Models
+namespace Monies.Models
 {
     /// <summary>
     /// A factory class for returning default implementation of repostory contracts.

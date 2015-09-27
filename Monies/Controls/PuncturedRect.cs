@@ -7,7 +7,7 @@ using System.Windows;
 using System.Windows.Media;
 using System.Windows.Shapes;
 
-namespace XPence.Controls
+namespace Monies.Controls
 {
     public class PuncturedRect : Shape
     {

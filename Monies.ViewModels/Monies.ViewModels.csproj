@@ -7,8 +7,8 @@
     <ProjectGuid>{D45E0826-D44E-4CF1-BDCD-AEBA0CDE7A94}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>XPence.ViewModels</RootNamespace>
-    <AssemblyName>XPence.ViewModels</AssemblyName>
+    <RootNamespace>Monies.ViewModels</RootNamespace>
+    <AssemblyName>Monies.ViewModels</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseIntermediateOutputPath>..\..\ObjMatter\</BaseIntermediateOutputPath>

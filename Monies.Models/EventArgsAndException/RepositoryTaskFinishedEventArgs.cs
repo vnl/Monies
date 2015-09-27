@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using XPence.Models.DataModels;
+using Monies.Models.DataModels;
 
-namespace XPence.Models.EventArgsAndException
+namespace Monies.Models.EventArgsAndException
 {
     /// <summary>
     /// An event args class to carry the data of a repository task finised event.

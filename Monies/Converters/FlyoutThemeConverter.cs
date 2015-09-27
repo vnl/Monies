@@ -1,5 +1,5 @@
 ﻿/***************************************************************************************************
- * PROJECT : XPence
+ * PROJECT : Monies
  * PROJECT DESCRIPTION : A metro style, smart client expense tracking software.
  * AUTHOR : Siddhartha S
  * DISCLAIMER : This code is licensed under CPOL. You are free to use this in your project.
@@ -9,9 +9,9 @@
 using System;
 using System.Globalization;
 using System.Windows.Data;
-using XPence.Infrastructure.BaseClasses;
+using Monies.Infrastructure.BaseClasses;
 
-namespace XPence.Converters
+namespace Monies.Converters
 {
     /// <summary>
     /// An implementation of <see cref="IValueConverter"/> to convert ViewModel friendly flyout theme to
@@ -20,7 +20,7 @@ namespace XPence.Converters
     public class FlyoutThemeConverter : IValueConverter
     {
         /// <summary>
-        /// Converts a <see cref="XPence.Infrastructure.BaseClasses.FlyoutTheme"/> enum value to
+        /// Converts a <see cref="Monies.Infrastructure.BaseClasses.FlyoutTheme"/> enum value to
         /// <see cref="MahApps.Metro.Controls.FlyoutTheme"/> enum value.
         /// </summary>
         /// <param name="value"></param>

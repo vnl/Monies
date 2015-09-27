@@ -8,7 +8,7 @@ using System.Globalization;
 using System.Collections.ObjectModel;
 using System.Windows.Controls;
 
-namespace XPence.PushBinding
+namespace Monies.PushBinding
 {
     public class FreezableBinding : Freezable
     {

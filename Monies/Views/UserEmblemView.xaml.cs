@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Controls;
 
-namespace XPence.Views
+namespace Monies.Views
 {
     /// <summary>
     /// Interaction logic for UserEmblemView.xaml

@@ -9,7 +9,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace XPence.Infrastructure
+namespace Monies.Infrastructure
 {
     /// <summary>
     /// A class encapsulating all members required for encrypting and decrypting a sting. 

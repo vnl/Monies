@@ -1,5 +1,5 @@
 ﻿/***************************************************************************************************
- * PROJECT : XPence
+ * PROJECT : Monies
  * PROJECT DESCRIPTION : A metro style, smart client expense tracking software.
  * AUTHOR : Siddhartha S
  * DISCLAIMER : This code is licensed under CPOL. You are free to use this in your project.
@@ -10,7 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows.Controls;
 
-namespace XPence.Infrastructure.MessagingService
+namespace Monies.Infrastructure.MessagingService
 {
     /// <summary>
     /// Registers the modal views used in the application against a key.

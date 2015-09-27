@@ -1,7 +1,7 @@
 ﻿using System;
-using XPence.Models.DataModels;
+using Monies.Models.DataModels;
 
-namespace XPence.Models.EventArgsAndException
+namespace Monies.Models.EventArgsAndException
 {
     /// <summary>
     /// An event args class to carry the user information on successful logged in event.

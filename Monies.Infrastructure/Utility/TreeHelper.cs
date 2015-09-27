@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Media;
 
-namespace XPence.Infrastructure.Utility
+namespace Monies.Infrastructure.Utility
 {
     /// <summary>
     /// Helper methods for UI-related tasks.

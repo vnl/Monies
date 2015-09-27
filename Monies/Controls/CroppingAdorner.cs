@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Point = System.Drawing.Point;
 
-namespace XPence.Controls
+namespace Monies.Controls
 {
     public class CroppingAdorner : Adorner
     {

@@ -1,15 +1,15 @@
-﻿<!--PROJECT : XPence
+﻿<!--PROJECT : Monies
 PROJECT DESCRIPTION : A metro style, smart client expense tracking software.
 AUTHOR : Siddhartha S
 DISCLAIMER : This code is licensed under CPOL. You are free to use this in your project.
 The author takes no liabilities for any damage caused because of this code. Use at your own risk.-->
-<UserControl xmlns:Views="clr-namespace:XPence.Views"  x:Class="XPence.Views.ManageView"
+<UserControl xmlns:Views="clr-namespace:Monies.Views"  x:Class="Monies.Views.ManageView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:Controls="clr-namespace:Apex.Controls;assembly=Apex"
-             xmlns:Converters="clr-namespace:XPence.Converters"
-             xmlns:AttachedBehaviors="clr-namespace:XPence.AttachedMembers"
-             xmlns:Shared="clr-namespace:XPence.Shared;assembly=XPence.Shared"
+             xmlns:Converters="clr-namespace:Monies.Converters"
+             xmlns:AttachedBehaviors="clr-namespace:Monies.AttachedMembers"
+             xmlns:Shared="clr-namespace:Monies.Shared;assembly=Monies.Shared"
              AttachedBehaviors:ElementLoadingBehavior.InitializeDataContextWhenLoaded="True">
     <UserControl.Resources>
         <Converters:NullToBoolConverter x:Key="nullToBool"/>

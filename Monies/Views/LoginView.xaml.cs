@@ -1,4 +1,4 @@
-﻿namespace XPence.Views
+﻿namespace Monies.Views
 {
     /// <summary>
     /// Interaction logic for LoginView.xaml

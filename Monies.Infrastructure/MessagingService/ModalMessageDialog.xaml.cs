@@ -2,7 +2,7 @@
 using System;
 using System.Windows;
 
-namespace XPence.Infrastructure.MessagingService
+namespace Monies.Infrastructure.MessagingService
 {
     /// <summary>
     /// Interaction logic for ModalMessageDialog.xaml

@@ -1,5 +1,5 @@
 ﻿/***************************************************************************************************
- * PROJECT : XPence
+ * PROJECT : Monies
  * PROJECT DESCRIPTION : A metro style, smart client expense tracking software.
  * AUTHOR : Siddhartha S
  * DISCLAIMER : This code is licensed under CPOL. You are free to use this in your project.
@@ -8,9 +8,9 @@
 
 using System.Collections.Generic;
 using System.ComponentModel;
-using XPence.Infrastructure.BaseClasses;
+using Monies.Infrastructure.BaseClasses;
 
-namespace XPence.Infrastructure.Navigation
+namespace Monies.Infrastructure.Navigation
 {
     /// <summary>
     /// A contract for an instance of navigator.

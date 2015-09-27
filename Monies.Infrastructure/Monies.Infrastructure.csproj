@@ -7,8 +7,8 @@
     <ProjectGuid>{B5506544-BBD8-4D5C-8C50-71A37454ED62}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>XPence.Infrastructure</RootNamespace>
-    <AssemblyName>XPence.Infrastructure</AssemblyName>
+    <RootNamespace>Monies.Infrastructure</RootNamespace>
+    <AssemblyName>Monies.Infrastructure</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseIntermediateOutputPath>..\..\ObjMatter\</BaseIntermediateOutputPath>

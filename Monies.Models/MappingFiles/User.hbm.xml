@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?> 
 <hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
-                           assembly="XPence.Models"
-                           namespace="XPence.Models.DataModels">
+                           assembly="Monies.Models"
+                           namespace="Monies.Models.DataModels">
   <!--<class name="User" table="USER_TABLE" lazy="false">
     <id name="UserId" >
       <column name="USEER_ID" not-null="true" />
@@ -15,7 +15,7 @@
     <property name="SelectedAccent" column="SELECTED_ACCENT"/>
   </class>-->
 
-  <class name="User" table="XPENCE_USER_TABLE" lazy="false">
+  <class name="User" table="MONIES_USER_TABLE" lazy="false">
     <id name="UserId" >
       <column name="USER_ID" not-null="true" />
       <generator class="identity" />

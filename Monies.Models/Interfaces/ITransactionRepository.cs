@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using XPence.Models.EventArgsAndException;
-using XPence.Models.DataModels;
+using Monies.Models.EventArgsAndException;
+using Monies.Models.DataModels;
 
-namespace XPence.Models.Interfaces
+namespace Monies.Models.Interfaces
 {
     /// <summary>
     /// A contract exposing all members essential for maintaining a repository of 

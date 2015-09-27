@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Media.Imaging;
 
-namespace XPence.Views
+namespace Monies.Views
 {
     /// <summary>
     /// Interaction logic for ImagePickerView.xaml

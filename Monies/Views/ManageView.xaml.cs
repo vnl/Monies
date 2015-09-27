@@ -1,6 +1,6 @@
 ﻿
 
-namespace XPence.Views
+namespace Monies.Views
 {
     /// <summary>
     /// Interaction logic for ManageView.xaml

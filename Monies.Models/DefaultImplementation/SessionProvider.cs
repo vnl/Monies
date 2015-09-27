@@ -3,7 +3,7 @@ using NHibernate;
 using NHibernate.Cfg;
 using NHibernate.Tool.hbm2ddl;
 
-namespace XPence.Models.DefaultImplementation
+namespace Monies.Models.DefaultImplementation
 {
     /// <summary>
     /// A class providing singleton instance of session for DB communication.

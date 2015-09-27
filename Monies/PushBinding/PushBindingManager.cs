@@ -3,7 +3,7 @@
  * ***********************************************************************************************************************************/
 using System.Windows;
 
-namespace XPence.PushBinding
+namespace Monies.PushBinding
 {
     public class PushBindingManager
     {

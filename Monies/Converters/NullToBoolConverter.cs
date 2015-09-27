@@ -1,5 +1,5 @@
 ﻿/***************************************************************************************************
- * PROJECT : XPence
+ * PROJECT : Monies
  * PROJECT DESCRIPTION : A metro style, smart client expense tracking software.
  * AUTHOR : Siddhartha S
  * DISCLAIMER : This code is licensed under CPOL. You are free to use this in your project.
@@ -9,7 +9,7 @@
 using System.Globalization;
 using System.Windows.Data;
 
-namespace XPence.Converters
+namespace Monies.Converters
 {
     /// <summary>
     /// An implementation of <see cref="IValueConverter"/> that returns a bool value against an instance.

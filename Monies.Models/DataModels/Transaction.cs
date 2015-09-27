@@ -1,8 +1,8 @@
 ﻿using System;
-using XPence.Infrastructure.BaseClasses;
-using XPence.Shared;
+using Monies.Infrastructure.BaseClasses;
+using Monies.Shared;
 
-namespace XPence.Models.DataModels
+namespace Monies.Models.DataModels
 {
     /// <summary>
     /// A model class for a transaction.

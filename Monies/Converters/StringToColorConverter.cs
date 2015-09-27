@@ -1,5 +1,5 @@
 ﻿/***************************************************************************************************
- * PROJECT : XPence
+ * PROJECT : Monies
  * PROJECT DESCRIPTION : A metro style, smart client expense tracking software.
  * AUTHOR : Siddhartha S
  * DISCLAIMER : This code is licensed under CPOL. You are free to use this in your project.
@@ -12,9 +12,9 @@ using System.Linq;
 using System.Windows.Data;
 using System.Windows.Media;
 using MahApps.Metro;
-using XPence.Infrastructure.Utility;
+using Monies.Infrastructure.Utility;
 
-namespace XPence.Converters
+namespace Monies.Converters
 {
     /// <summary>
     /// An implementation of <see cref="IValueConverter"/> contract that converts a string to a <see cref="Brush"/> object.

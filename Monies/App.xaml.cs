@@ -3,13 +3,13 @@ using System.Threading;
 using System.Windows;
 using System.Windows.Markup;
 using System.Windows.Threading;
-using XPence.Infrastructure.MessagingService;
-using XPence.Infrastructure.Utility;
-using XPence.Shared;
-using XPence.ViewModels;
-using XPence.Views;
+using Monies.Infrastructure.MessagingService;
+using Monies.Infrastructure.Utility;
+using Monies.Shared;
+using Monies.ViewModels;
+using Monies.Views;
 
-namespace XPence
+namespace Monies
 {
     /// <summary>
     /// Interaction logic for App.xaml
