@@ -1,7 +1,7 @@
 ﻿/***************************************************************************************************
  * PROJECT : Monies
- * PROJECT DESCRIPTION : A metro style, smart client expense tracking software.
- * AUTHOR : Vivian Lobo
+ * 
+ * 
  * DISCLAIMER : This code is licensed under CPOL. You are free to use this in your project.
  * The author takes no liabilities for any damage caused because of this code. Use at your own risk.
 ****************************************************************************************************/
